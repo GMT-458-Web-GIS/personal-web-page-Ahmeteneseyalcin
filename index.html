@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Personal Portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.1.0/ol.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Ahmet Enes Yalçın</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projeler.html">Projects</a></li>
+            </ul>
+
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="theme-toggle">
+                    <input type="checkbox" id="theme-toggle" />
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="container">
+        
+        <section class="card">
+            <h1>About Me</h1>
+            <div class="about-me-container">
+                <div class="about-text">
+                    <p>Hello! I'm Ahmet Enes Yalçın. I am a Geomatics Engineering student at Hacettepe University. I am interested in Web GIS technologies and spatial data analysis.</p>
+                    <p>This site was prepared for the GMT 458 course assignment. Here you can find my skills, my projects, and the location of my department on the map.</p>
+                </div>
+                <div class="about-photo">
+                    <img src="hügmt.jpg" alt="Profile Photo" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>My Department</h2>
+            <p>Location of Hacettepe University Geomatics Engineering Department:</p>
+            
+            <div id="map"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>All rights reserved. &copy; 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.1.0/dist/ol.js"></script>
+    
+    <script src="map.js"></script>
+
+    <script src="theme.js"></script>
+
+</body>
+</html>
