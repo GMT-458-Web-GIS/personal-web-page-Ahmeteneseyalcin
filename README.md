@@ -14,6 +14,6 @@ This website includes:
 
 ## AI Usage (Mandatory Reporting)
 
-]As per the assignment instructions, AI was used to resolve issues after initial attempts.
+As per the assignment instructions, AI was used to resolve issues after initial attempts.
 
 * **Specifics Learned from AI:** CSS variables for dark/light mode was generated with AI assistance. The JavaScript code for enabling the 'click-to-get-coordinates' functionality was also provided by the AI.
